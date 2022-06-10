@@ -5,8 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
+    <h1 class="title">Giphy API</h1>
+    <div class="search-field">
+      <input
+        class="input-search"
+        id="input-search"
+        type="text"
+        placeholder="GIF Tag..."
+      />
+      <button class="btn" id="search-btn">Search</button>
+    </div>
+
+    <div class="gif-container" id="gif-container"></div>
+
     <script src="src/index.js"></script>
   </body>
 </html>
